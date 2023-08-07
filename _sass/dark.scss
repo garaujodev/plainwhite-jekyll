@@ -41,8 +41,11 @@
 		font-family: 'Consolas', Menlo, monospace;
 		line-height: 1.4em;
 		tab-size: 4;
-    background-color: #69696945;
 	}
+
+  pre.highlight-dark, code.language-plaintext {
+    background-color: #000a0a;
+  }
 
 	.post-categories {
 		li {
