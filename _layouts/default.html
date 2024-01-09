@@ -159,6 +159,19 @@
         </p>
       </div>
       {%- endif -%}
+
+      <nav class="navigation about-footer {{condensed_class}}">
+        <ul>
+          <li>
+            {%- if page.language == "en" -%}
+            <a href="/pt-br">Versão em Português</a>
+            {%- else -%}
+            <a href="/">English Version</a>
+            {%- endif -%}
+          </li>
+        </ul>
+      </nav>
+
       {% endcapture %}
       {{ footer }}
     </section>
